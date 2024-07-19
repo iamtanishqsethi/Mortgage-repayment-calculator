@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700&display=swap');
+
+body{
+    background-image: linear-gradient(125deg,lightblue,white);
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+
+}
+.main{
+    width: 750px;
+    height: 470px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    border-radius:20px ;
+}
+.head{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.clearBtn{
+    background-color: transparent;
+    border: none;
+    color:hsl(203, 41%, 72%) ;
+    text-decoration: underline;
+}
+label{
+    color: hsl(200, 24%, 40%);
+}
+.amount{
+    width: 80%;
+    height: 25px;
+    margin: 15px 0;
+    border-radius: 5px;
+    border: 2px solid hsl(61, 70%, 52%);
+}
+span.amount{
+
+    padding: 4px 7px;
+    background-color: hsl(61, 70%, 52%);
+    color: hsl(202, 55%, 16%);
+}
+.hero,.result-hero{
+    height: 100%;
+    width: 50%;
+}
+.hero{
+    padding: 30px;
+}
+.hero-head{
+    display: inline-block;
+    color: hsl(202, 55%, 16%);
+    font-size: 20px;
+}
+.clearBtn{
+    right: 0;
+}
+.result-hero{
+    background-color: hsl(202, 55%, 16%);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius:50px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 20px;
+}
+.result-hero .result{
+    color: white;
+    margin: 0;
+}
+p{
+    color: hsl(200, 26%, 54%);
+    font-size: 16px;
+}
+.result-hero img{
+    height: 130px;
+    width: 130px;
+}
+.completed{
+    display: none;
+}
